@@ -12,21 +12,31 @@
   display: block
   margin: 0 auto
 
-@keyframes fadeIn
+@keyframes sliceIn_left
   0%
+    transform: translateX(-100px)
     opacity: 0
-    transform: translateX(30px)
-    filter: saturate(0%)
   100%
+    transform: translateX(0px)
     opacity: 1
-    transform: translateX(0px)
-    filter: saturate(100%)
 
-@keyframes sliceIn
+@keyframes sliceIn_down
   0%
-    transform: translateX(-50px)
+    transform: translateY(-100px)
+    opacity: 0
   100%
-    transform: translateX(0px)
+    transform: translateY(0px)
+    opacity: 1
+
+@keyframes left
+  0% 
+    z-index: 1
+  50% 
+    left: 50px
+
+@keyframes right
+  50% 
+    right: 50px
 
 html,body,#main
   +size(100%)
@@ -35,6 +45,34 @@ html,body,#main
   font-family: "微軟正黑體"
   background-color: #ddd
 
+#loading
+  +size(100%)
+  +center
+  background-color: rgba(255,255,255,0.6)
+  font-weight: bold
+  font-size: 18pt
+  color: rgba(237,153,22,0.8)
+
+  .myloading
+    position: relative
+    width: 110px
+    height: 50px
+    .left,.right
+      position: absolute
+      top: 0
+      width: 50px
+      height: 50px
+      border-radius: 100%
+      animation: 1s ease-in-out infinite
+    .left
+      background: rgb(237,153,22)
+      left: 0
+      animation-name: left
+    .right 
+      background: rgb(88,181,48)
+      right: 0
+      animation-name: right
+    
 #nav
   display: none
   .sitename
@@ -48,28 +86,49 @@ html,body,#main
     color: #0ff
 
 #main
+  display: none
   #home
     background-color: #ccc
-    animation: sliceIn 1s 0.2s ease
+    animation: sliceIn_left 1s 0.1s ease
     .cover
       +center
       +size(100%)
-      background: url('../img/cover1.png') center no-repeat 
+      background: url('../img/bg.png') center no-repeat 
       background-size: cover
       color: #000
-      padding-top: 20vh  
+      padding-top: 0px
+      img
+        width: 40%
+        min-width: 300px
+        margin-bottom: 30px
+        padding-bottom: 30px
+        border-bottom: solid 1px #aaa
       h1
         font-weight: 900
-        margin-bottom: 40px
-      p 
+        margin-bottom: 30px
+      .p 
+        background-color: rgba(0,0,0,0.6)
+        p
         font-weight: 400
-        margin-bottom: 40px
+        margin-bottom: 30px
         word-wrap: break-all
-        padding: 0 50px
+        padding: 10px
+        +center
+        color: #eee
       a
-        border: solid 1px #777
+        border: solid 1px #00f
         color: #000
-        opacity: 0.8
+        transition-duration: 0.4s
+        padding: 15px
+      a:hover
+        background-color: #00f
+        border: solid 1px #fff
+        color: #fff
+        transition: 1.5s
+        font-weight: bold
+      span:hover:after
+        content: ">>"
+        
 
   .title
     +size(100%,40px)
@@ -77,14 +136,11 @@ html,body,#main
     background-color: #fff
     font-size: 20pt
     font-weight: bold
-    animation: fadeIn 1.5s ease both  
-
-  #product,#experiment,#about,#QA
+    
+  #product,#experiment,#about,#act,#QA
     padding-top: 100px
     display: none
-    animation: sliceIn 1s 0.1s ease
-  #footer
-    display: none
+    animation: sliceIn_down 1s 0.1s ease
 
   #product
     .myframe
@@ -137,26 +193,31 @@ html,body,#main
           img
             +size(200px)
             +img_center
-          p
-            +center
+          .intro_title
+            text-align: center
             
   #about
     line-height: 30pt
     .content
       padding: 0 10%
-    .row
+      h3
+        margin-top: 20px
+      p
+        margin: 0
+    .mycol
+      padding: 0 15px
       border: solid 1px #aaa
-      margin: 20px 0
+      margin: 20px
       h5
         font-weight: bold
       p
+        margin: 0
         font-size: 11pt
       img
         +img_center
 
-  #QA
+  #act,#QA
     .content
-      padding: 0 10%
       ul
         list-style-type: none
         li
@@ -190,9 +251,10 @@ html,body,#main
               width: 100%
               height: auto
               line-height: 30px
-              padding: 0px 35px
+              padding: 0px 10px 0px 35px
 
   #footer
+    display: none
     width: 100%
     .content
       margin: 0
@@ -227,3 +289,4 @@ html,body,#main
       background-color: #fff
       a
         +center
+
