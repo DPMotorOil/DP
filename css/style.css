@@ -79,6 +79,7 @@ html, body, #main {
   #nav a:hover {
     color: #0ff; }
 
+<<<<<<< HEAD
 #main {
   display: none; }
   #main #home {
@@ -131,10 +132,16 @@ html, body, #main {
   #main .title {
     width: 100%;
     height: 40px;
+=======
+#main #home {
+  background-color: #ccc; }
+  #main #home .cover {
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+<<<<<<< HEAD
     background-color: #fff;
     font-size: 20pt;
     font-weight: bold; }
@@ -221,6 +228,130 @@ html, body, #main {
       #main #about .mycol img {
         display: block;
         margin: 0 auto; }
+=======
+    width: 100%;
+    height: 100%;
+    background: url("../img/cover1.png") center no-repeat;
+    background-size: cover;
+    color: #000;
+    padding-top: 20vh; }
+    #main #home .cover h1 {
+      font-weight: 900;
+      margin-bottom: 40px; }
+    #main #home .cover p {
+      font-weight: 400;
+      margin-bottom: 40px;
+      word-wrap: break-all;
+      padding: 0 50px; }
+    #main #home .cover a {
+      border: solid 1px #777;
+      color: #000;
+      opacity: 0.8; }
+
+#main .title {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #fff;
+  font-size: 20pt;
+  font-weight: bold; }
+
+#main #product, #main #experiment, #main #act, #main #QA  ,#main #about{
+  padding-top: 100px;
+  display: none;
+  animation: sliceIn 1s 0.1s ease; }
+
+#main #footer {
+  display: none; }
+
+#main #product .myframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+  #main #product .myframe iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    margin: 10px;
+    padding: 10px; }
+
+#main #product .container, #main #experiment .container {
+  width: 100%; }
+  #main #product .container .row, #main #experiment .container .row {
+    padding: 0px 0;
+    margin: 0; }
+  #main #product .container .col-md-3, #main #product .container .col-6, #main #experiment .container .col-md-3, #main #experiment .container .col-6 {
+    padding: 0;
+    border-bottom: solid 10px #eee; }
+    #main #product .container .col-md-3 .card, #main #product .container .col-6 .card, #main #experiment .container .col-md-3 .card, #main #experiment .container .col-6 .card {
+      background-color: #ddd;
+      border: solid 1px #888;
+      height: 250px; }
+      #main #product .container .col-md-3 .card a, #main #product .container .col-6 .card a, #main #experiment .container .col-md-3 .card a, #main #experiment .container .col-6 .card a {
+        text-decoration: none;
+        color: #000; }
+      #main #product .container .col-md-3 .card a:hover, #main #product .container .col-6 .card a:hover, #main #experiment .container .col-md-3 .card a:hover, #main #experiment .container .col-6 .card a:hover {
+        color: #08a; }
+      #main #product .container .col-md-3 .card img, #main #product .container .col-6 .card img, #main #experiment .container .col-md-3 .card img, #main #experiment .container .col-6 .card img {
+        width: 160px;
+        height: 160px;
+        display: block;
+        margin: 0 auto; }
+      #main #product .container .col-md-3 .card img:hover, #main #product .container .col-6 .card img:hover, #main #experiment .container .col-md-3 .card img:hover, #main #experiment .container .col-6 .card img:hover {
+        transform: translateY(-10px);
+        transition: 0.3s; }
+      #main #product .container .col-md-3 .card .card-img-top, #main #product .container .col-6 .card .card-img-top, #main #experiment .container .col-md-3 .card .card-img-top, #main #experiment .container .col-6 .card .card-img-top {
+        padding: 10px; }
+      #main #product .container .col-md-3 .card .card-body, #main #product .container .col-6 .card .card-body, #main #experiment .container .col-md-3 .card .card-body, #main #experiment .container .col-6 .card .card-body {
+        border-top: solid 1px #888; }
+        #main #product .container .col-md-3 .card .card-body p, #main #product .container .col-6 .card .card-body p, #main #experiment .container .col-md-3 .card .card-body p, #main #experiment .container .col-6 .card .card-body p {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column; }
+  #main #product .container .modal-dialog .modal-content, #main #experiment .container .modal-dialog .modal-content {
+    background-color: #fff; }
+  #main #product .container .modal-dialog .modal-header, #main #experiment .container .modal-dialog .modal-header {
+    background-color: #eee;
+    border-bottom: solid 1px #777; }
+  #main #product .container .modal-dialog .modal-body, #main #experiment .container .modal-dialog .modal-body {
+    border-bottom: solid 1px #777; }
+    #main #product .container .modal-dialog .modal-body img, #main #experiment .container .modal-dialog .modal-body img {
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: 0 auto; }
+    #main #product .container .modal-dialog .modal-body .intro_title, #main #experiment .container .modal-dialog .modal-body .intro_title {
+      text-align: center; }
+
+#main #about {
+  line-height: 30pt; }
+  #main #about .content {
+    padding: 0 10%; }
+    #main #about .content h3 {
+      margin-top: 20px; }
+    #main #about .content p {
+      margin: 0; }
+  #main #about .mycol {
+    padding: 0 15px;
+    border: solid 1px #aaa;
+    margin: 20px; }
+    #main #about .mycol h5 {
+      font-weight: bold; }
+    #main #about .mycol p {
+      margin: 0;
+      font-size: 11pt; }
+    #main #about .mycol img {
+      display: block;
+      margin: 0 auto; }
+
+#main #act .content, #main #QA .content {
+  padding: 0 10%; }
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
   #main #act .content ul, #main #QA .content ul {
     list-style-type: none; }
     #main #act .content ul li, #main #QA .content ul li {

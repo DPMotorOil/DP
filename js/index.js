@@ -74,7 +74,11 @@ card_product = [
     "target": "#pro06",
     "target_id": "pro06",
     "data": {
+<<<<<<< HEAD
       "title": "即將上市",      
+=======
+      "title": "即將上市",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/product/01.jpg"
     },
     "data_intro": {
@@ -175,7 +179,11 @@ card_experiment = [
     "target": "#exp05",
     "target_id": "exp05",
     "data": {
+<<<<<<< HEAD
       "title": "MINI-ROTARY VISCOMETER",    
+=======
+      "title": "MINI-ROTARY VISCOMETER",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/experiment/05-s.jpg"
     },
     "data_intro": {
@@ -189,7 +197,11 @@ card_experiment = [
     "target": "#exp06",
     "target_id": "exp06",
     "data": {
+<<<<<<< HEAD
       "title": "自動黏度測定儀",    
+=======
+      "title": "自動黏度測定儀",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/experiment/06-s.jpg"
     },
     "data_intro": {
@@ -203,7 +215,11 @@ card_experiment = [
     "target": "#exp07",
     "target_id": "exp07",
     "data": {
+<<<<<<< HEAD
       "title": "閉杯式閃火點測定儀",    
+=======
+      "title": "閉杯式閃火點測定儀",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/experiment/07-s.jpg"
     },
     "data_intro": {
@@ -217,7 +233,11 @@ card_experiment = [
     "target": "#exp08",
     "target_id": "exp08",
     "data": {
+<<<<<<< HEAD
       "title": "開杯式閃火點測定儀",    
+=======
+      "title": "開杯式閃火點測定儀",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/experiment/08-s.jpg"
     },
     "data_intro": {
@@ -329,7 +349,11 @@ card_experiment = [
     "target": "#exp16",
     "target_id": "exp16",
     "data": {
+<<<<<<< HEAD
       "title": "寬潤滑脂溫度範圍滴定測定儀",     
+=======
+      "title": "寬潤滑脂溫度範圍滴定測定儀",
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       "img": "./img/experiment/16-s.jpg"
     },
     "data_intro": {
@@ -353,9 +377,13 @@ card_experiment = [
     }
   }
 ]
+<<<<<<< HEAD
 //***************************************************//
 //**********************Vue**************************//
 //***************************************************//
+=======
+
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
 Vue.component("card",{
   template: "#card",
   props: ["card_data"]
@@ -421,14 +449,20 @@ function fn(i){
     case 2:
       $("#product").css("display","none")
       $("#experiment").css("display","none")
+<<<<<<< HEAD
       $("#about").css("display","block")
       $("#act").css("display","none")
+=======
+      $("#about").css("display","none")
+      $("#act").css("display","block")
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
       $("#QA").css("display","none")
       break
     case 3:
       $("#product").css("display","none")
       $("#experiment").css("display","none")
       $("#about").css("display","none")
+<<<<<<< HEAD
       $("#act").css("display","block")
       $("#QA").css("display","none")
       break
@@ -439,6 +473,18 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","block")
       break
+=======
+      $("#act").css("display","none")
+      $("#QA").css("display","block")
+      break
+    case 4:
+      $("#product").css("display","none")
+      $("#experiment").css("display","none")
+      $("#about").css("display","block")
+      $("#act").css("display","none")
+      $("#QA").css("display","none")
+      break
+>>>>>>> d3223a1167743d25bb53e84429d010eaece6c8fe
   }
 }
 //***************************************************//
