@@ -32,10 +32,14 @@
         <div class="collapse navbar-collapse bg-dark" id="navlist">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item"><a class="nav-link active" href="#product" onclick="fn(0)">產品</a></li>
-            <li class="nav-item"> <a class="nav-link" href="#experiment" onclick="fn(1)">實驗室</a></li>
+            <li class="nav-item"><a class="nav-link" href="#experiment" onclick="fn(1)">實驗室</a></li>
             <li class="nav-item"><a class="nav-link" href="#sale" onclick="fn(3)">活動與促銷</a></li>
+            <li class="nav-item"><a class="nav-link" href="#recommend" onclick="fn(5)">推薦</a></li>
             <li class="nav-item"><a class="nav-link" href="#QA" onclick="fn(4)">Q&A</a></li>
             <li class="nav-item"><a class="nav-link" href="#about" onclick="fn(2)">關於DP</a></li>
+
+
+
           </ul>
         </div>
       </nav>
@@ -73,6 +77,20 @@
               <div class="col-md-3 col-6" v-for="card in cards.card_experiment">
                 <div class="card">
                   <card :card_data="card"></card>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="recommend">
+          <h1 class="title">推薦</h1>
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-6" v-for="card in cards.card_recommend">
+                  <div class="card">
+                    <card v-bind:card_data="card"></card>
+                  </div>
                 </div>
               </div>
             </div>

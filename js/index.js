@@ -74,7 +74,7 @@ card_product = [
     "target": "#pro06",
     "target_id": "pro06",
     "data": {
-      "title": "即將上市",      
+      "title": "即將上市",
       "img": "./img/product/01.jpg"
     },
     "data_intro": {
@@ -110,6 +110,7 @@ card_product = [
       "intro_img":"./img/product/01.jpg",
       "intro": ""
     }
+
   }
 ]
 
@@ -175,7 +176,7 @@ card_experiment = [
     "target": "#exp05",
     "target_id": "exp05",
     "data": {
-      "title": "MINI-ROTARY VISCOMETER",    
+      "title": "MINI-ROTARY VISCOMETER",
       "img": "./img/experiment/05-s.jpg"
     },
     "data_intro": {
@@ -189,7 +190,7 @@ card_experiment = [
     "target": "#exp06",
     "target_id": "exp06",
     "data": {
-      "title": "自動黏度測定儀",    
+      "title": "自動黏度測定儀",
       "img": "./img/experiment/06-s.jpg"
     },
     "data_intro": {
@@ -203,7 +204,7 @@ card_experiment = [
     "target": "#exp07",
     "target_id": "exp07",
     "data": {
-      "title": "閉杯式閃火點測定儀",    
+      "title": "閉杯式閃火點測定儀",
       "img": "./img/experiment/07-s.jpg"
     },
     "data_intro": {
@@ -217,7 +218,7 @@ card_experiment = [
     "target": "#exp08",
     "target_id": "exp08",
     "data": {
-      "title": "開杯式閃火點測定儀",    
+      "title": "開杯式閃火點測定儀",
       "img": "./img/experiment/08-s.jpg"
     },
     "data_intro": {
@@ -329,7 +330,7 @@ card_experiment = [
     "target": "#exp16",
     "target_id": "exp16",
     "data": {
-      "title": "寬潤滑脂溫度範圍滴定測定儀",     
+      "title": "寬潤滑脂溫度範圍滴定測定儀",
       "img": "./img/experiment/16-s.jpg"
     },
     "data_intro": {
@@ -353,6 +354,37 @@ card_experiment = [
     }
   }
 ]
+card_recommend = [
+  {
+    "id": "recommend",
+    "target": "#rec01",
+    "target_id": "rec01",
+    "data": {
+      "title": "即將上市",
+      "img": "./img/recommend/recommend.jpg"
+    },
+    "data_intro": {
+      "title": "敬請期待",
+      "img": "./img/recommend/recommend.jpg",
+      "intro": ""
+    }
+  },
+  {
+    "id": "recommend",
+    "target": "#rec02",
+    "target_id": "rec02",
+    "data": {
+      "title": "即將上市",
+      "img": "./img/recommend/recommend.jpg"
+    },
+    "data_intro": {
+      "intro_title": "敬請期待",
+      "intro_img":"./img/recommend/recommend.jpg",
+      "intro": ""
+    }
+
+  }
+]
 //***************************************************//
 //**********************Vue**************************//
 //***************************************************//
@@ -366,7 +398,15 @@ var vm = new Vue({
   data: {
     cards: {
       "card_product": card_product,
-      "card_experiment": card_experiment
+      "card_experiment": card_experiment,
+      "card_recommend": card_recommend
+      // 物件名稱 : 陣列名稱
+      // html呼叫的是物件名稱
+      // 等於是要先跟vue註冊的意思
+      //"card_recommend": [
+      //  ........
+      //]
+
     }
   }
 })
@@ -402,7 +442,7 @@ function home(){
 function fn(i){
   $("#footer").css("display","block")
   $("#home").css("display","none")
- 
+
   switch(i){
     case 0:
       $("#product").css("display","block")
@@ -410,6 +450,7 @@ function fn(i){
       $("#about").css("display","none")
       $("#act").css("display","none")
       $("#QA").css("display","none")
+      $("#recommend").css("display","none")
       break
     case 1:
       $("#product").css("display","none")
@@ -417,6 +458,7 @@ function fn(i){
       $("#about").css("display","none")
       $("#act").css("display","none")
       $("#QA").css("display","none")
+      $("#recommend").css("display","none")
       break
     case 2:
       $("#product").css("display","none")
@@ -424,6 +466,7 @@ function fn(i){
       $("#about").css("display","block")
       $("#act").css("display","none")
       $("#QA").css("display","none")
+      $("#recommend").css("display","none")
       break
     case 3:
       $("#product").css("display","none")
@@ -431,6 +474,7 @@ function fn(i){
       $("#about").css("display","none")
       $("#act").css("display","block")
       $("#QA").css("display","none")
+      $("#recommend").css("display","none")
       break
     case 4:
       $("#product").css("display","none")
@@ -438,6 +482,15 @@ function fn(i){
       $("#about").css("display","none")
       $("#act").css("display","none")
       $("#QA").css("display","block")
+      $("#recommend").css("display","none")
+      break
+    case 5:
+      $("#product").css("display","none")
+      $("#experiment").css("display","none")
+      $("#about").css("display","none")
+      $("#act").css("display","none")
+      $("#QA").css("display","none")
+      $("#recommend").css("display","block")
       break
   }
 }
