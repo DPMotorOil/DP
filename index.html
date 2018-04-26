@@ -18,7 +18,7 @@
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.js"></script>
     <title>DPMotorOil</title>
   </head>
-  <body onload="loading()">
+  <body>
     <div id="loading">
       <p>網頁載入中</p>
       <div class="myloading">
@@ -31,15 +31,13 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navlist" aria-controls="navlist" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
         <div class="collapse navbar-collapse bg-dark" id="navlist">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item"><a class="nav-link active" href="#product" onclick="fn(0)">產品</a></li>
+            <li class="nav-item"><a class="nav-link active" href="#product" onclick="fn(0)">產品介紹</a></li>
+            <li class="nav-item"><a class="nav-link" href="#proof" onclick="fn(6)">產品數據</a></li>
             <li class="nav-item"><a class="nav-link" href="#experiment" onclick="fn(1)">實驗室</a></li>
             <li class="nav-item"><a class="nav-link" href="#sale" onclick="fn(3)">活動與促銷</a></li>
             <li class="nav-item"><a class="nav-link" href="#recommend" onclick="fn(5)">推薦</a></li>
             <li class="nav-item"><a class="nav-link" href="#QA" onclick="fn(4)">Q&A</a></li>
             <li class="nav-item"><a class="nav-link" href="#about" onclick="fn(2)">關於DP</a></li>
-
-
-
           </ul>
         </div>
       </nav>
@@ -49,14 +47,14 @@
         <div class="cover"><img src="./img/DP.png"/>
           <h1 class="display-4">DP專業機油</h1>
           <div class="p">
-            <p class="lead">主打國際技術台灣在地研發、製造、包裝以及品管統在地統一管理並接受客戶需求研發各種油化保養產品。</p>
+            <p class="lead">主打國際技術台灣在地研發、製造、包裝和品管統在地統一管理並接受客戶需求研發各種油化保養產品。</p>
             <p class="lead">讓每一個消費者能真正使用到符合自己的好產品。            </p>
           </div><a class="btn btn-light" href="#product" onclick="start()"> <span>Continue</span></a>
         </div>
       </div>
       <div id="app">
         <div id="product">
-          <h1 class="title">產品</h1>
+          <h1 class="title">產品介紹</h1>
           <div class="myframe container">
             <iframe src="https://www.youtube.com/embed/pMyr4Cy0-No?ecver=2" allow="autoplay; encrypted-media" allowfullscreen="allowfullscreen"></iframe>
           </div>
@@ -88,6 +86,20 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-3 col-6" v-for="card in cards.card_recommend">
+                  <div class="card">
+                    <card v-bind:card_data="card"></card>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="proof">
+          <h1 class="title">產品數據</h1>
+          <div class="container">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 col-6" v-for="card in cards.card_proof">
                   <div class="card">
                     <card v-bind:card_data="card"></card>
                   </div>
@@ -152,7 +164,7 @@
                 <div class="card card-body">
                   <p class="ans_title">開幕特惠</p>
                   <article class="ans">
-                    <p><br>3-4瓶97折<br>5-6瓶95折<br>7-9瓶92折<br>1箱9折($315元/瓶)<br>2相88折($308元/瓶)<br>3箱72瓶85折($298元/瓶)</p>
+                    <p><br>3-4瓶97折<br>5-6瓶95折<br>7-9瓶92折<br>1箱9折($450元/瓶)<br>2相88折($440元/瓶)<br>3箱72瓶85折($425元/瓶)</p>
                   </article>
                 </div>
               </div>

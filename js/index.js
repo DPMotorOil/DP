@@ -110,7 +110,6 @@ card_product = [
       "intro_img":"./img/product/01.jpg",
       "intro": ""
     }
-
   }
 ]
 
@@ -385,6 +384,37 @@ card_recommend = [
 
   }
 ]
+card_proof = [
+  {
+    "id": "recommend",
+    "target": "#pro01",
+    "target_id": "pro01",
+    "data": {
+      "title": "即將上市",
+      "img": "./img/proof/proof.jpg"
+    },
+    "data_intro": {
+      "title": "敬請期待",
+      "img": "./img/proof/proof.jpg",
+      "intro": ""
+    }
+  },
+  {
+    "id": "recommend",
+    "target": "#pro02",
+    "target_id": "pro02",
+    "data": {
+      "title": "即將上市",
+      "img": "./img/proof/proof.jpg"
+    },
+    "data_intro": {
+      "intro_title": "敬請期待",
+      "intro_img":"./img/proof/proof.jpg",
+      "intro": ""
+    }
+
+  }
+]
 //***************************************************//
 //**********************Vue**************************//
 //***************************************************//
@@ -399,14 +429,14 @@ var vm = new Vue({
     cards: {
       "card_product": card_product,
       "card_experiment": card_experiment,
-      "card_recommend": card_recommend
+      "card_recommend": card_recommend,
+      "card_proof": card_proof
       // 物件名稱 : 陣列名稱
       // html呼叫的是物件名稱
       // 等於是要先跟vue註冊的意思
       //"card_recommend": [
       //  ........
       //]
-
     }
   }
 })
@@ -414,11 +444,13 @@ var vm = new Vue({
 //*******************functions***********************//
 //***************************************************//
 //載入首頁效果
-$(window).on('ready',loading)
+window.onload = loading
 function loading(){
+  var home = document.getElementById("home")
+  home.style.opacity = 1
   $('.cover').ready(function(){
+    $('#loading').css("display","none")
     $('#main').css("display","block")
-    $('#loading').hide(1500)
   })
 }
 //點擊continue按鈕後，顯示導覽列、產品、footer
@@ -451,6 +483,7 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
+      $("#proof").css("display","none")
       break
     case 1:
       $("#product").css("display","none")
@@ -459,6 +492,7 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
+      $("#proof").css("display","none")
       break
     case 2:
       $("#product").css("display","none")
@@ -467,6 +501,7 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
+      $("#proof").css("display","none")
       break
     case 3:
       $("#product").css("display","none")
@@ -475,6 +510,7 @@ function fn(i){
       $("#act").css("display","block")
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
+      $("#proof").css("display","none")
       break
     case 4:
       $("#product").css("display","none")
@@ -483,6 +519,7 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","block")
       $("#recommend").css("display","none")
+      $("#proof").css("display","none")
       break
     case 5:
       $("#product").css("display","none")
@@ -491,6 +528,16 @@ function fn(i){
       $("#act").css("display","none")
       $("#QA").css("display","none")
       $("#recommend").css("display","block")
+      $("#proof").css("display","none")
+      break
+    case 6:
+      $("#product").css("display","none")
+      $("#experiment").css("display","none")
+      $("#about").css("display","none")
+      $("#act").css("display","none")
+      $("#QA").css("display","none")
+      $("#recommend").css("display","none")
+      $("#proof").css("display","block")
       break
   }
 }
