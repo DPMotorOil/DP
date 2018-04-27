@@ -5,11 +5,11 @@ card_product = [
     "target_id": "pro01",
     "data": {
       "title": "脂類全合成機油10W40",
-      "img": "./img/product/1-1.png"
+      "img": "./img/product/1.png"
     },
     "data_intro": {
       "title": "產品介紹",
-      "img": "./img/product/1-0.png",  
+      "img": "./img/product/1-0.jpg",
       "intro": ""
     }
   },
@@ -386,7 +386,7 @@ card_recommend = [
 ]
 card_proof = [
   {
-    "id": "recommend",
+    "id": "proof",
     "target": "#pro01",
     "target_id": "pro01",
     "data": {
@@ -400,7 +400,7 @@ card_proof = [
     }
   },
   {
-    "id": "recommend",
+    "id": "proof",
     "target": "#pro02",
     "target_id": "pro02",
     "data": {
@@ -430,7 +430,7 @@ var vm = new Vue({
       "card_product": card_product,
       "card_experiment": card_experiment,
       "card_recommend": card_recommend,
-      "card_proof": card_proof
+      "card_proof": card_proof,
       // 物件名稱 : 陣列名稱
       // html呼叫的是物件名稱
       // 等於是要先跟vue註冊的意思
