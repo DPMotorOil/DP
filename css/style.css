@@ -302,7 +302,7 @@ line-height: 20pt;
         display: block;
         margin: 0 auto;
       }
-      #main #proof .container .modal-dialog .modal-body img{
+      #proof .modal-body img{
         width: 800px;
         height: auto;
         display: block;
