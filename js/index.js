@@ -124,7 +124,7 @@ card_experiment = [
     "data_intro": {
       "title": "CCS : 冷啟動模擬器 \nASTM : D5293-10",
       "img":"./img/experiment/01.jpg",
-      "intro": ""
+      "intro": "使用冷起動模擬器在-5℃和-35℃之間測定發動機油表觀黏度的標準試驗方法"
     }
   },
   {
@@ -404,11 +404,11 @@ card_proof = [
     "target_id": "pr02",
     "data": {
       "title": "製造商API頁面-1",
-      "img": "./img/proof/API.png"
+      "img": "./img/proof/API.jpg"
     },
     "data_intro": {
       "title": "製造商API",
-      "img": "./img/proof/API.png",
+      "img": "./img/proof/API.jpg",
       "intro": ""
     }
 
@@ -419,11 +419,11 @@ card_proof = [
     "target_id": "pr03",
     "data": {
       "title": "製造商API頁面-2",
-      "img": "./img/proof/API-1.png"
+      "img": "./img/proof/API-1.jpg"
     },
     "data_intro": {
       "title": "製造商API",
-      "img": "./img/proof/API-1.png",
+      "img": "./img/proof/API-1.jpg",
       "intro": ""
     }
 
