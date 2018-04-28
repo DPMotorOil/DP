@@ -403,7 +403,37 @@ card_proof = [
     "target": "#pr02",
     "target_id": "pr02",
     "data": {
-      "title": "10W40實驗性狀表",
+      "title": "製造商API頁面-1",
+      "img": "./img/proof/API.png"
+    },
+    "data_intro": {
+      "title": "製造商API",
+      "img": "./img/proof/API.png",
+      "intro": ""
+    }
+
+  },
+  {
+    "id": "proof",
+    "target": "#pr03",
+    "target_id": "pr03",
+    "data": {
+      "title": "製造商API頁面-2",
+      "img": "./img/proof/API-1.png"
+    },
+    "data_intro": {
+      "title": "製造商API",
+      "img": "./img/proof/API-1.png",
+      "intro": ""
+    }
+
+  },
+  {
+    "id": "proof",
+    "target": "#pr04",
+    "target_id": "pr04",
+    "data": {
+      "title": "德特10W40全合成酯基機油性狀表",
       "img": "./img/proof/P10W40-1.jpg"
     },
     "data_intro": {
