@@ -111,6 +111,7 @@ html, body, #main {
     margin: 0 auto;
     max-width: 300px
   }
+  
 }
 pre {
   white-space: pre-wrap;
@@ -234,8 +235,8 @@ line-height: 20pt;
         #main #recommend .container .col-md-3 .card img, #main #recommend .container .col-6 .card img,
         #main #proof .container .col-md-3 .card img, #main #proof .container .col-6 .card img {
           /*縮圖大小*/
-          width: auto;
-          height: 160;
+          width: 160px;
+          height: 160px;
           display: block;
           margin: 0 auto; }
         #main #product .container .col-md-3 .card img:hover, #main #product .container .col-6 .card img:hover,
@@ -298,7 +299,7 @@ line-height: 20pt;
         margin: 0 auto;
       }
       #main #proof .container .modal-dialog .modal-body img{
-        width: 400;
+        width: 400px;
         height: auto;
         display: block;
         margin: 0 auto;
