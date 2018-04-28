@@ -115,9 +115,9 @@ html, body, #main {
 }
 pre {
   white-space: pre-wrap;
-word-wrap: break-word;
-font-size: 11pt;
-line-height: 20pt;
+  word-wrap: break-word;
+  font-size: 11pt;
+  line-height: 20pt;
 }
 #main {
   display: none; }
@@ -199,7 +199,7 @@ line-height: 20pt;
   #main #experiment .container,
   #main #recommend .container,
   #main #proof .container  {
-    width: 200%; }
+    width: 100%; }
     #main #product .container .row,
     #main #experiment .container .row ,
     #main #recommend .container .row ,
@@ -207,8 +207,8 @@ line-height: 20pt;
       padding: 0px 0;
       margin: 0; }
     #main #product .container .col-md-3, #main #product .container .col-6,
-    #main #experiment .container .col-md-3, #main #experiment .container .col-6
-    #main #recommend .container .col-md-3, #main #recommend .container .col-6
+    #main #experiment .container .col-md-3, #main #experiment .container .col-6,
+    #main #recommend .container .col-md-3, #main #recommend .container .col-6,
     #main #proof .container .col-md-3, #main #proof .container .col-6 {
       padding: 0;
       border-bottom: solid 10px #eee; }

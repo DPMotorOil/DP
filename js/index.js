@@ -4,7 +4,7 @@ card_product = [
     "target": "#pro01",
     "target_id": "pro01",
     "data": {
-      "title": "脂類全合成機油10W40",
+      "title": "酯類全合成機油10W40",
       "img": "./img/product/1.png"
     },
     "data_intro": {
