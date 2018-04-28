@@ -78,7 +78,7 @@ html, body, #main {
       background: #58b530;
       right: 0;
       animation-name: right; }
-
+/*彈跳視窗大小*/
 #nav {
   display: none; }
   #nav .sitename {
@@ -95,8 +95,9 @@ html, body, #main {
     color: #0ff; }
 .modal-dialog {
   width: 150%;
-  max-width: 1080px
+  max-width: 600px
 }
+
 @media only screen and (max-width: 600px) {
   .modal-dialog {
     width: 100%;
@@ -234,7 +235,7 @@ line-height: 20pt;
         #main #proof .container .col-md-3 .card img, #main #proof .container .col-6 .card img {
           /*縮圖大小*/
           width: auto;
-          height: auto;
+          height: 160;
           display: block;
           margin: 0 auto; }
         #main #product .container .col-md-3 .card img:hover, #main #product .container .col-6 .card img:hover,
@@ -277,6 +278,7 @@ line-height: 20pt;
     #main #recommend .container .modal-dialog .modal-body,
     #main #proof .container .modal-dialog .modal-body{
       border-bottom: solid 1px #777; }
+      /*以下彈跳圖片大小*/
       #main #product .container .modal-dialog .modal-body img{
         width: auto;
         height: auto;
@@ -290,23 +292,18 @@ line-height: 20pt;
         margin: 0 auto;
       }
       #main #recommend .container .modal-dialog .modal-body img{
-        /*彈跳圖片大小*/
         width: auto;
         height: auto;
         display: block;
         margin: 0 auto;
       }
       #main #proof .container .modal-dialog .modal-body img{
-        width: 600px;
+        width: 400;
         height: auto;
         display: block;
         margin: 0 auto;
       }
-      #proof .modal-body img{
-        width: 800px;
-        height: auto;
-        display: block;
-        margin: 0 auto;
+
       }
 
       #main #product .container .modal-dialog .modal-body .intro_title,

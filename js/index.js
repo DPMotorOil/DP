@@ -389,12 +389,12 @@ card_proof = [
     "target": "#pr01",
     "target_id": "pr01",
     "data": {
-      "title": "10W40實驗資料",
-      "img": "./img/proof/P10W40.jpg"
+      "title": "產品投保",
+      "img": "./img/proof/0.jpg"
     },
     "data_intro": {
-      "title": "敬請期待",
-      "img": "./img/proof/10W40.jpg",
+      "title": "產品投保證明",
+      "img": "./img/proof/0.jpg",
       "intro": ""
     }
   },
@@ -403,12 +403,12 @@ card_proof = [
     "target": "#pr02",
     "target_id": "pr02",
     "data": {
-      "title": "即將上市",
-      "img": "./img/proof/proof.jpg"
+      "title": "10W40實驗性狀表",
+      "img": "./img/proof/P10W40-1.jpg"
     },
     "data_intro": {
-      "intro_title": "敬請期待",
-      "intro_img":"./img/proof/proof.jpg",
+      "title": "10W40性狀表",
+      "img": "./img/proof/10W40.jpg",
       "intro": ""
     }
 
