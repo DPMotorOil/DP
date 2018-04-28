@@ -93,7 +93,30 @@ html, body, #main {
     flex-direction: column; }
   #nav a:hover {
     color: #0ff; }
-
+.modal-dialog {
+  width: 150%;
+  max-width: 1080px
+}
+@media only screen and (max-width: 600px) {
+  .modal-dialog {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+  .modal-body img{
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-width: 300px
+  }
+}
+pre {
+  white-space: pre-wrap;
+word-wrap: break-word;
+font-size: 11pt;
+line-height: 20pt;
+}
 #main {
   display: none; }
   #main #home {
@@ -253,17 +276,39 @@ html, body, #main {
     #main #experiment .container .modal-dialog .modal-body,
     #main #recommend .container .modal-dialog .modal-body,
     #main #proof .container .modal-dialog .modal-body{
-
       border-bottom: solid 1px #777; }
-      #main #product .container .modal-dialog .modal-body img,
-      #main #experiment .container .modal-dialog .modal-body img,
-      #main #recommend .container .modal-dialog .modal-body img,
-      #main #proof .container .modal-dialog .modal-body img {
+      #main #product .container .modal-dialog .modal-body img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      #main #experiment .container .modal-dialog .modal-body img{
+        width: auto;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      #main #recommend .container .modal-dialog .modal-body img{
         /*彈跳圖片大小*/
         width: auto;
         height: auto;
         display: block;
-        margin: 0 auto; }
+        margin: 0 auto;
+      }
+      #main #proof .container .modal-dialog .modal-body img{
+        width: 600px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+      #main #proof .container .modal-dialog .modal-body img{
+        width: 800px;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+      }
+
       #main #product .container .modal-dialog .modal-body .intro_title,
       #main #experiment .container .modal-dialog .modal-body .intro_title,
       #main #recommend .container .modal-dialog .modal-body .intro_title,

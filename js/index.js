@@ -112,7 +112,6 @@ card_product = [
     }
   }
 ]
-
 card_experiment = [
   {
     "id": "experiment",
@@ -387,8 +386,8 @@ card_recommend = [
 card_proof = [
   {
     "id": "proof",
-    "target": "#pro01",
-    "target_id": "pro01",
+    "target": "#pr01",
+    "target_id": "pr01",
     "data": {
       "title": "10W40實驗資料",
       "img": "./img/proof/P10W40.jpg"
@@ -401,8 +400,8 @@ card_proof = [
   },
   {
     "id": "proof",
-    "target": "#pro02",
-    "target_id": "pro02",
+    "target": "#pr02",
+    "target_id": "pr02",
     "data": {
       "title": "即將上市",
       "img": "./img/proof/proof.jpg"
