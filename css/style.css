@@ -111,7 +111,7 @@ html, body, #main {
     margin: 0 auto;
     max-width: 300px
   }
-  
+
 }
 pre {
   white-space: pre-wrap;
@@ -199,7 +199,7 @@ line-height: 20pt;
   #main #experiment .container,
   #main #recommend .container,
   #main #proof .container  {
-    width: 100%; }
+    width: 200%; }
     #main #product .container .row,
     #main #experiment .container .row ,
     #main #recommend .container .row ,
