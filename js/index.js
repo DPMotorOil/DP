@@ -404,11 +404,11 @@ card_proof = [
     "target_id": "pr02",
     "data": {
       "title": "製造商API頁面-1",
-      "img": "./img/proof/API.jpg"
+      "img": "./img/proof/API.png"
     },
     "data_intro": {
       "title": "製造商API",
-      "img": "./img/proof/API.jpg",
+      "img": "./img/proof/API.png",
       "intro": ""
     }
 
@@ -419,11 +419,11 @@ card_proof = [
     "target_id": "pr03",
     "data": {
       "title": "製造商API頁面-2",
-      "img": "./img/proof/API-1.jpg"
+      "img": "./img/proof/API-1.png"
     },
     "data_intro": {
       "title": "製造商API",
-      "img": "./img/proof/API-1.jpg",
+      "img": "./img/proof/API-1.png",
       "intro": ""
     }
 
