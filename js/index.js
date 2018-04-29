@@ -384,7 +384,7 @@ card_recommend = [
   }
 ]
 card_proof = [
-  {
+    {
     "id": "proof",
     "target": "#pr01",
     "target_id": "pr01",
