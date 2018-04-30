@@ -426,7 +426,6 @@ card_proof = [
       "img": "./img/proof/API-1.jpg",
       "intro": ""
     }
-
   },
   {
     "id": "proof",
