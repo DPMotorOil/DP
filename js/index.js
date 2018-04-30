@@ -4,13 +4,13 @@ card_product = [
     "target": "#pro01",
     "target_id": "pro01",
     "data": {
-      "title": "脂類全合成機油10W40",
-      "img": "./img/product/1-1.png"
+      "title": "酯類全合成機油10W40",
+      "img": "./img/product/1.png"
     },
     "data_intro": {
-      "title": "產品介紹",
-      "img": "./img/product/1-0.png",  
-      "intro": ""
+      "title": "德特10W40四行程全合成酯基引擎機油",
+      "img": "./img/product/1-0.jpg",
+      "intro": "4T全合成 10W40\n符合規範:API SN JASO MA-II\n說明：\n1.以全酯基及PAO全合成基礎油及耐高溫高抗氧化添加劑調配。\n2.含特殊引擎保護配方，強化油膜降低引擎磨損。\n3.低溫容易啟動，全時保護引擎，省油又有力。\n4.特殊高抗剪切黏度向上劑，可避免引擎馬力衰退無力。\n適用：適用各廠牌機車全車系、噴射引擎及陶瓷汽缸引擎。\n包裝：1Liter"
     }
   },
   {
@@ -112,7 +112,6 @@ card_product = [
     }
   }
 ]
-
 card_experiment = [
   {
     "id": "experiment",
@@ -125,7 +124,7 @@ card_experiment = [
     "data_intro": {
       "title": "CCS : 冷啟動模擬器 \nASTM : D5293-10",
       "img":"./img/experiment/01.jpg",
-      "intro": ""
+      "intro": "使用冷起動模擬器在-5℃和-35℃之間測定發動機油表觀黏度的標準試驗方法"
     }
   },
   {
@@ -385,31 +384,61 @@ card_recommend = [
   }
 ]
 card_proof = [
-  {
-    "id": "recommend",
-    "target": "#pro01",
-    "target_id": "pro01",
+    {
+    "id": "proof",
+    "target": "#pr01",
+    "target_id": "pr01",
     "data": {
-      "title": "即將上市",
-      "img": "./img/proof/proof.jpg"
+      "title": "產品投保",
+      "img": "./img/proof/0.jpg"
     },
     "data_intro": {
-      "title": "敬請期待",
-      "img": "./img/proof/proof.jpg",
+      "title": "產品投保證明",
+      "img": "./img/proof/0.jpg",
       "intro": ""
     }
   },
   {
-    "id": "recommend",
-    "target": "#pro02",
-    "target_id": "pro02",
+    "id": "proof",
+    "target": "#pr02",
+    "target_id": "pr02",
     "data": {
-      "title": "即將上市",
-      "img": "./img/proof/proof.jpg"
+      "title": "製造商API頁面-1",
+      "img": "./img/proof/API.jpg"
     },
     "data_intro": {
-      "intro_title": "敬請期待",
-      "intro_img":"./img/proof/proof.jpg",
+      "title": "製造商API",
+      "img": "./img/proof/API.jpg",
+      "intro": ""
+    }
+
+  },
+  {
+    "id": "proof",
+    "target": "#pr03",
+    "target_id": "pr03",
+    "data": {
+      "title": "製造商API頁面-2",
+      "img": "./img/proof/API-1.jpg"
+    },
+    "data_intro": {
+      "title": "製造商API",
+      "img": "./img/proof/API-1.jpg",
+      "intro": ""
+    }
+
+  },
+  {
+    "id": "proof",
+    "target": "#pr04",
+    "target_id": "pr04",
+    "data": {
+      "title": "德特10W40全合成酯基機油性狀表",
+      "img": "./img/proof/P10W40-1.jpg"
+    },
+    "data_intro": {
+      "title": "10W40性狀表",
+      "img": "./img/proof/10W40-1.jpg",
       "intro": ""
     }
 
