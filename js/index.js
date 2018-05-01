@@ -426,10 +426,6 @@ card_proof = [
       "img": "./img/proof/API-1.jpg",
       "intro": ""
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> e4de058bfa3ba421a5bd15758cd2fb8031071320
   },
   {
     "id": "proof",
@@ -441,11 +437,7 @@ card_proof = [
     },
     "data_intro": {
       "title": "10W40性狀表",
-<<<<<<< HEAD
       "img": "./img/proof/10W40-1.jpg",
-=======
-      "img": "./img/proof/10W40.jpg",
->>>>>>> e4de058bfa3ba421a5bd15758cd2fb8031071320
       "intro": ""
     }
 
