@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@keyframes sliceIn_left { 
+@keyframes sliceIn_left {
   0% {
     transform: translateX(-100px);
     opacity: 0; }
