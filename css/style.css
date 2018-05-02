@@ -183,8 +183,8 @@ pre {
   #main #product, #main #experiment, #main #about, #main #act, #main #QA,#main #recommend,#main #proof  {
     padding-top: 100px;
     display: none;
-    animation: sliceIn_down 1s 0.1s ease; 
-    display: flex;
+    animation: sliceIn_down 1s 0.1s ease;
+
     align-items: center;
     justify-content: center;
     flex-direction: column;
