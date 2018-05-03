@@ -147,11 +147,11 @@ pre {
         font-weight: 900;
         margin-bottom: 30px; }
       #main #home .cover .p {
-        background-color: rgba(0, 0, 0, 0.9);
+        background-color: rgba(0, 0, 0, 0.6);
         font-weight: 400;
         margin-bottom: 30px;
         word-wrap: break-all;
-        padding: autoplay;
+        padding: 10px;
         display: flex;
         align-items: center;
         justify-content: center;
