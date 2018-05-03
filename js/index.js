@@ -512,6 +512,7 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 1:
       $("#product").css("display","none")
@@ -521,6 +522,7 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 2:
       $("#product").css("display","none")
@@ -530,6 +532,7 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 3:
       $("#product").css("display","none")
@@ -539,6 +542,7 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 4:
       $("#product").css("display","none")
@@ -548,6 +552,7 @@ function fn(i){
       $("#QA").css("display","block")
       $("#recommend").css("display","none")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 5:
       $("#product").css("display","none")
@@ -557,6 +562,7 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","block")
       $("#proof").css("display","none")
+      $("#story").css("display","none")
       break
     case 6:
       $("#product").css("display","none")
@@ -566,6 +572,17 @@ function fn(i){
       $("#QA").css("display","none")
       $("#recommend").css("display","none")
       $("#proof").css("display","block")
+      $("#story").css("display","none")
+    break
+    case 7:
+      $("#product").css("display","none")
+      $("#experiment").css("display","none")
+      $("#about").css("display","none")
+      $("#act").css("display","none")
+      $("#QA").css("display","none")
+      $("#recommend").css("display","none")
+      $("#proof").css("display","none")
+      $("#story").css("display","block")
       break
   }
 }

@@ -180,7 +180,12 @@ pre {
     background-color: #fff;
     font-size: 20pt;
     font-weight: bold; }
-  #main #product, #main #experiment, #main #about, #main #act, #main #QA,#main #recommend,#main #proof  {
+  #main #about,#main #story{
+      padding-top: 100px;
+      display: none;
+      animation: sliceIn_down 1s 0.1s ease;
+    }
+  #main #product, #main #experiment, #main #act, #main #QA,#main #recommend,#main #proof {
     padding-top: 100px;
     display: none;
     animation: sliceIn_down 1s 0.1s ease;
