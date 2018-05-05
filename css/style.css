@@ -149,13 +149,13 @@ pre {
       #main #home .cover .p {
         background-color: rgba(0, 0, 0, 0.6);
         font-weight: 400;
-        margin-bottom: 200px;
-        word-wrap: break-all;
-        padding: 0px;
+        margin-bottom: 50px;
+        padding: 25px;
         width: 100%;
-        height: auto;
+        text-align: center;
         font-size: 1.25rem;
-        color: #eee; }
+        color: #eee;
+        }
         @media only screen and (max-width: 576px) {
           #main #home .cover .p{
             font-size: 1rem;
@@ -358,17 +358,19 @@ pre {
   #main #act .content ul, #main #QA .content ul {
     list-style-type: none; }
     #main #act .content ul li, #main #QA .content ul li {
-      border-bottom: solid 1px #000; }
+      border-bottom: solid 1px #eee; }
       #main #act .content ul li .quest, #main #QA .content ul li .quest {
         width: 100%;
         height: auto;
         overflow: hidden;
-        padding: 15px; }
+        padding: 15px;
+        background-color: rgba(0,0,0,0.6);
+       }
         #main #act .content ul li .quest a, #main #QA .content ul li .quest a {
           text-decoration: none;
-          color: #000; }
+          color: #fff; }
         #main #act .content ul li .quest a:hover, #main #act .content ul li .quest a:focus, #main #QA .content ul li .quest a:hover, #main #QA .content ul li .quest a:focus {
-          color: #00f; }
+          color: #fff000; }
       #main #act .content ul li .answer, #main #QA .content ul li .answer {
         width: 100%;
         height: auto;
