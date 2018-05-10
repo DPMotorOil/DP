@@ -205,6 +205,7 @@ pre {
     background-size: cover;
     color: #000;
   }
+
   #main #product .myframe {
     display: flex;
     align-items: center;
@@ -344,8 +345,8 @@ pre {
               #main #about .content h2,#main #story .content h2 {
                 margin-top: 30px;
                 font-size: 30pt;}
-            #main #about .content p,#main #story .content p {
-              margin: 0;
+            #main #about .content p,#main #story .content p ,#main #footer .content p{
+                margin: 0;
                 font-size: 15pt;}
           #main #about .mycol ,#main #story .mycol{
             padding: 0 15px;
