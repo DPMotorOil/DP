@@ -201,7 +201,7 @@ pre {
     flex-direction: column;
     width: auto;
     height: auto;
-    background: url("../img/bg.png") center no-repeat;
+    /*background: url("../img/bg.png") center no-repeat;*/
     background-size: cover;
     color: #000;
   }
@@ -232,7 +232,7 @@ pre {
     #main #recommend .container .col-md-3, #main #recommend .container .col-6,
     #main #proof .container .col-md-3, #main #proof .container .col-6 {
       padding: 0;
-      border-bottom: solid 10px #eee; }
+      border-bottom: solid 0px #eee; }
       #main #product .container .col-md-3 .card, #main #product .container .col-6 .card,
       #main #experiment .container .col-md-3 .card, #main #experiment .container .col-6 .card,
       #main #recommend .container .col-md-3 .card, #main #recommend .container .col-6 .card,
@@ -335,26 +335,30 @@ pre {
       #main #recommend .container .modal-dialog .modal-body .intro_title,
       #main #proof .container .modal-dialog .modal-body .intro_title {
         text-align: center; }
-  #main #about {
-    line-height: 30pt; }
-    #main #about .content {
-      padding: 0 10%; }
-      #main #about .content h3 {
-        margin-top: 30px; }
-      #main #about .content p {
-        margin: 0; }
-    #main #about .mycol {
-      padding: 0 15px;
-      border: solid 1px #aaa;
-      margin: 20px; }
-      #main #about .mycol h5 {
-        font-weight: bold; }
-      #main #about .mycol p {
-        margin: 0;
-        font-size: 11pt; }
-      #main #about .mycol img {
-        display: block;
-        margin: 0 auto; }
+        #main #about ,  #main #story{
+          line-height: 30pt; }
+          #main #about .content,#main #story .content {
+            padding: 0 10%; }
+            #main #about .content h3,#main #story .content h3 {
+              margin-top: 30px; }
+              #main #about .content h2,#main #story .content h2 {
+                margin-top: 30px;
+                font-size: 30pt;}
+            #main #about .content p,#main #story .content p {
+              margin: 0;
+                font-size: 15pt;}
+          #main #about .mycol ,#main #story .mycol{
+            padding: 0 15px;
+            border: solid 1px #aaa;
+            margin: 20px; }
+            #main #about .mycol h5 ,#main #story .mycol h5 {
+              font-weight: bold; }
+            #main #about .mycol p ,#main #story .mycol p {
+              margin: 0;
+              font-size: 15pt; }
+            #main #about .mycol img ,#main #story .mycol img{
+              display: block;
+              margin: 0 auto; }
   #main #act .content ul, #main #QA .content ul {
     list-style-type: none; }
     #main #act .content ul li, #main #QA .content ul li {
