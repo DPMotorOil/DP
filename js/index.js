@@ -5,7 +5,7 @@ card_product = [
     "target_id": "pro01",
     "data": {
       "title": "酯類全合成機油10W40",
-      "img": "./img/product/1.png"
+      "img": "./img/product/1.jpg"
     },
     "data_intro": {
       "title": "德特10W40四行程全合成酯基引擎機油",
@@ -432,7 +432,7 @@ card_proof = [
     "target": "#pr04",
     "target_id": "pr04",
     "data": {
-      "title": "德特10W40全合成酯基機油性狀表",
+      "title": "10W40全合成酯基機油性狀表",
       "img": "./img/proof/P10W40-1.jpg"
     },
     "data_intro": {
