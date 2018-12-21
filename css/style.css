@@ -67,12 +67,12 @@ html, body, #main {
     #loading .myloading .left, #loading .myloading .right {
       position: absolute;
       top: 0;
-      width: 50px;
+      width: 500px;
       height: 50px;
       border-radius: 100%;
       animation: 1s ease-in-out infinite; }
     #loading .myloading .left {
-      background: #000000;
+      background: #ed9916;
       left: 0;
       animation-name: left; }
     #loading .myloading .right {
