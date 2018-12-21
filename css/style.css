@@ -72,7 +72,7 @@ html, body, #main {
       border-radius: 100%;
       animation: 1s ease-in-out infinite; }
     #loading .myloading .left {
-      background: #ed9916;
+      background: #000000;
       left: 0;
       animation-name: left; }
     #loading .myloading .right {
