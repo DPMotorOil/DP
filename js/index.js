@@ -19,11 +19,11 @@ card_product = [
     "target_id": "pro02",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "title": "敬請期待",
-      "img":"./img/product/01.jpg",
+      "img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -33,11 +33,11 @@ card_product = [
     "target_id": "pro03",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "title": "敬請期待",
-      "img":"./img/product/01.jpg",
+      "img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -47,11 +47,11 @@ card_product = [
     "target_id": "pro04",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "title": "敬請期待",
-      "img":"./img/product/01.jpg",
+      "img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -61,11 +61,11 @@ card_product = [
     "target_id": "pro05",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "intro_title": "敬請期待",
-      "intro_img":"./img/product/01.jpg",
+      "intro_img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -75,11 +75,11 @@ card_product = [
     "target_id": "pro06",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "intro_title": "敬請期待",
-      "intro_img":"./img/product/01.jpg",
+      "intro_img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -89,11 +89,11 @@ card_product = [
     "target_id": "pro07",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "intro_title": "敬請期待",
-      "intro_img":"./img/product/01.jpg",
+      "intro_img":"./img/product/Coming.jpg",
       "intro": ""
     }
   },
@@ -103,11 +103,11 @@ card_product = [
     "target_id": "pro08",
     "data": {
       "title": "即將上市",
-      "img": "./img/product/01.jpg"
+      "img": "./img/product/Coming.jpg"
     },
     "data_intro": {
       "intro_title": "敬請期待",
-      "intro_img":"./img/product/01.jpg",
+      "intro_img":"./img/product/Coming.jpg",
       "intro": ""
     }
   }
@@ -123,7 +123,7 @@ card_experiment = [
     },
     "data_intro": {
       "title": "CCS : 冷啟動模擬器 \nASTM : D5293-10",
-      "img":"./img/experiment/01.jpg",
+      "img":"./img/experiment/Coming.jpg",
       "intro": "使用冷起動模擬器在-5℃和-35℃之間測定發動機油表觀黏度的標準試驗方法"
     }
   },
